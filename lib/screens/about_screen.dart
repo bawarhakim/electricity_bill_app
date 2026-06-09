@@ -5,7 +5,7 @@ import '../theme/app_theme.dart';
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
 
-  static const String _githubUrl = 'https://github.com/yourusername/electricity_bill_app';
+  static const String _githubUrl = 'https://github.com/bawarhakim/electricity_bill_app';
 
   Future<void> _launchUrl(BuildContext context, String url) async {
     final uri = Uri.parse(url);
@@ -126,7 +126,7 @@ class AboutScreen extends StatelessWidget {
                                     fontWeight: FontWeight.bold, fontSize: 15)),
                             SizedBox(height: 4),
                             Text(
-                              'github.com/yourusername/electricity_bill_app',
+                              'https://github.com/bawarhakim/electricity_bill_app',
                               style: TextStyle(
                                   color: AppTheme.primaryColor,
                                   decoration: TextDecoration.underline,
